@@ -8,30 +8,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    margin-top: 5px;
 }
 
 .box {
     align-self: center;
-    width: 98%;
+    width: 90%;
     padding: 5px;
+    background-color: #0F807A;
 }
 
 #main {
-    background-color: #6E0846;
     width: 100%;
     margin: 0 auto;
 }
 
 #title {
     text-align: center;
-    color: white;
-    background-color: #0F807A;
-}
-
-#img-div{
-    margin-top: 5px;
-    background-color: #0F807A;
-    width: 98%;
+    color: white;  
 }
 
 #image {
