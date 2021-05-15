@@ -1,11 +1,35 @@
 body {
-    background-color: hsl(222,0%,75%);
+    background-color: #0B4B5B;
+    font-family: monospace;
+    color: white;
 }
 
 #main {
-    background-color: hsl(222,0%, 53%);
+    background-color: #0B4B5B;
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-self: center;
+}
+
+#title {
+    padding: 5px 5px;
+    width: 95%;
+    text-align: center;
+    color: white;
+    background-color: #0F807A;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: #6E0846;
+    border-radius: 10%;
+}
+
+#img-caption{
+    text-align: center;
 }
 
